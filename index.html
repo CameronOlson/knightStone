@@ -1,20 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="assets.styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Besley&display=swap" rel="stylesheet">
 
 </head>
 <body>
-Hello World
+  <div class="container-fluid">
+<div class="row main-gradient text-light">
+  <div class="col-6 m-auto center-this">
 
-
+    <h1>Storm Kings Thunder</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="pc">
+    <button class="pcLinks" onclick="openPc(event, 'Don')">Don</button>
+    <button class="pcLinks" onclick="openPc(event, 'Winston')">Winston</button>
+    <button class="pcLinks" onclick="openPc(event, 'Milo')">Milo</button>
+    <button class="pcLinks" onclick="openPc(event, 'Stivali')">Stivali</button>
     
+  </div>
+  
+  <div id="Don" class="pcContent">
+    <div>
+      <span class="align-right" onclick="document.getElementById('Don').style.display='none'">x</span>
+      <h3>Don</h3>
+      <p>Halfling Druid</p>
+    </div>
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatem consequuntur quo porro architecto eveniet ipsum cupiditate labore omnis, reprehenderit ullam vitae at minus eligendi recusandae obcaecati nisi unde voluptatum. Porro accusamus, recusandae unde magnam quasi enim voluptatum tenetur officiis fugiat voluptatem voluptates ducimus maiores aut magni cupiditate tempora dolor!</div>
+  </div>
+  
+  <div id="Winston" class="pcContent">
+    <div>
+      <span class="align-right" onclick="document.getElementById('Winston').style.display='none'">x</span>
+      <h3>Winston</h3>
+      <p>Halforc Barbarian</p> 
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque obcaecati laboriosam consequuntur commodi aspernatur quas iusto voluptatum est velit deleniti, provident totam rerum impedit nihil non excepturi mollitia illum? Quam aliquid quae earum velit iure, hic in doloribus, minus quo, odio a atque nisi iste ab omnis corporis distinctio explicabo?
+    </div>
+  </div>
+  
+  <div id="Milo" class="pcContent">
+    <div>
+      <span class="align-right" onclick="document.getElementById('Milo').style.display='none'">x</span>
+
+      <h3>Milo</h3>
+      <p>Elf Monk</p>
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum quo, eius accusamus eos nisi tempore quis deleniti, illum neque odio rem, numquam explicabo officiis. Distinctio modi provident expedita ab cupiditate eveniet. Quo repellendus rem nisi accusantium ipsum autem voluptatum maxime vitae, illo dolores! Modi dolore, dicta asperiores temporibus hic animi!
+    </div>
+  </div>
+  <div id="Stivali" class="pcContent">
+    <div>
+      <span class="align-right" onclick="document.getElementById('Stivali').style.display='none'">x</span>
+
+      <h3>Stivali</h3>
+      <p>Elf Rouge</p>
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum quo, eius accusamus eos nisi tempore quis deleniti, illum neque odio rem, numquam explicabo officiis. Distinctio modi provident expedita ab cupiditate eveniet. Quo repellendus rem nisi accusantium ipsum autem voluptatum maxime vitae, illo dolores! Modi dolore, dicta asperiores temporibus hic animi!
+    </div>
+  </div>
+  
+  
+</div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
 </html>

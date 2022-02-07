@@ -1,0 +1,50 @@
+.center-this{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-gradient{
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,93,23,1) 100%);
+}
+
+.pc {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+
+.pc button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.pc button:hover {
+  background-color: #ddd;
+}
+
+.pc button.active {
+  background-color: #ccc;
+}
+
+.pcContent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.align-right {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.align-right:hover {color: red;}
