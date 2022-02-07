@@ -16,7 +16,7 @@
 .pc button {
   background-color: inherit;
   color: azure;
-  /* border-radius: 1rem; */
+  border-radius: 1rem;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
@@ -34,9 +34,6 @@
 
 .pcContent {
   display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
 }
 .align-right {
   float: right;
