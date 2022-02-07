@@ -9,30 +9,27 @@
 }
 
 .pc {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,93,23,1) 100%);
 }
 
 
 .pc button {
   background-color: inherit;
-  float: left;
-  border: none;
+  color: azure;
+  /* border-radius: 1rem; */
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  transition: 0.3s;
   font-size: 17px;
 }
 
 
 .pc button:hover {
-  background-color: #ddd;
+  background-color: rgb(76, 107, 65);
 }
 
 .pc button.active {
-  background-color: #ccc;
+  background-color: rgb(76, 107, 65);
 }
 
 .pcContent {
