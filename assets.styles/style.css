@@ -1,3 +1,5 @@
+
+
 .center-this{
   display: flex;
   justify-content: center;
@@ -6,6 +8,14 @@
 .main-gradient{
   background: rgb(0,0,0);
   background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,93,23,1) 100%);
+}
+.player-pic{
+  max-height: 25vh;
+  max-width: 18vh;
+}
+.split{
+  display: flex;
+  justify-content: space-between;
 }
 
 .pc {
